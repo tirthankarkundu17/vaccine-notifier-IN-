@@ -1,0 +1,19 @@
+{
+  "name": "cowin-vaccine-notifier",
+  "version": "1.0.0",
+  "description": "A small utility app to fetch available vaccine slots!",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Tirthankar Kundu",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "moment": "^2.29.1",
+    "node-cron": "^3.0.0"
+  },
+  "devDependencies": {
+    "nodemailer": "^6.6.0"
+  }
+}
